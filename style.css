@@ -1,0 +1,38 @@
+/* Resetten van standaardmarges en -paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', sans-serif;
+    background-color: #78c7c7; /* Appelblauwzeegroene achtergrondkleur */
+    color: #fff; /* Tekstkleur wit voor betere leesbaarheid op de achtergrond */
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #5a9ea3; /* Donkerder tint voor header */
+}
+
+section {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a9ea3; /* Donkerder tint voor footer */
+}
